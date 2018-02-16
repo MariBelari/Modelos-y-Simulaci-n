@@ -30,3 +30,8 @@ derecha
 izquierda<- mean(simulacion)-(3*sd(simulacion))
 izquierda
 #media-3sd=5.49919
+
+max(simulacion)
+#maximo=30
+min(simulacion)
+#minimo=4
