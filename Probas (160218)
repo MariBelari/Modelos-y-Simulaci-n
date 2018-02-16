@@ -1,0 +1,32 @@
+# Modelos-y-Simulaci-n
+
+#Se tiene una muestra de 80 polizas del ramo de
+#La proba de que una de ellas tenga siniestros
+#Estudie la variable aleatoria suponiendo una distribucion
+#Lo anterior debido a que se seleccionara si la
+#x-B(80,0.2), mi v.a. x=0,1,2,...,80
+
+#Simular 1000 observaciones  con los mismos parametros 
+#y analizar los resultados con 80 v.a. y proba=0.2
+#Calcular E[x], var[x], f(x), F(x), histograma
+
+polizas<-seq(0:1000)
+polizas
+n=80
+p=0.2
+simulacion<-rbinom(polizas,n,prob=p)
+
+mean(simulacion)
+#media=16.07093
+var(simulacion)
+#varianza=12.41796
+sd(simulacion)
+#desviacion estandar=3.523913
+hist(simulacion)
+#colas
+derecha<- mean(simulacion)+(3*sd(simulacion))
+derecha
+#media+3sd=26.64267
+izquierda<- mean(simulacion)-(3*sd(simulacion))
+izquierda
+#media-3sd=5.49919
