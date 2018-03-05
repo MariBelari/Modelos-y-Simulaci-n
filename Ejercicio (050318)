@@ -17,3 +17,22 @@
 
 
 
+#1
+renta<- 500;
+m=2000;
+x=runif(m, min=30, max=40);
+hist(x, freq=TRUE)
+#3
+costos<-15000;
+variacion=.37;
+muestra<- rnorm(m, mean=0, sd=variacion);
+hist(muestra, freq=TRUE)
+rentanual=renta*12;
+utilidad=rentanual-costos*(+variacion);
+utilidaddd=rentanual-costos*(-variacion);
+utilidad;
+utilidaddd;
+#4
+proba<- punif(2500, min=30, max=40, lower.tail=FALSE);
+proba;
+
