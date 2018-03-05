@@ -1,0 +1,19 @@
+#a. La renta mensual de los departamentos es de $500 USD;
+#b. El numero de unidades que se rentaran en cualquiera de los meses sigue una distribucion
+#uniforme con valores (30,40];
+#c. Los costos de operacion son de aproximadamente $15,000 USD, sin embargo, en ocasiones
+#puede variar (aumentar o disminuir) de hasta un 37%, suponga distribucion normal.
+
+#OBTENGA:
+#1. Un modelo para la toma de decisiones;
+#2. Justificar la compra o evitarla a traves del analisis de simulacion;
+#3. Estimar la utilidad esperada para el primer año;
+#4. Obtenga la probabilidad de tener ingresos de al menos $2500 USD en el primer año;
+#5. Si la distribucion de las unidades en renta sigue una distribucion triangular, cual sera
+#su decision final?
+#6. Obtenga el lapso en meses en el que se obtendra la inversion inicial si el precio del 
+#inmueble es de $620,000 USD
+#7. Justifique su respuesta empleando al menos 2000 simulaciones
+
+
+
